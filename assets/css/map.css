@@ -1,0 +1,94 @@
+body { margin:0; padding:0; overflow:hidden; touch-action:none; }
+#map { position:absolute; top:0; bottom:0; width:100%; overflow:hidden; }
+p {font-size: 14px;}
+
+#sidebar { 
+    z-index: 10;  position: absolute;  right: 10px;  top: 10px; width: 320px;
+    background-color:rgba(255,255,255,.9); padding: 20px; border-radius: 3px; }
+#title h1 { color: #390; }
+#introduction p { margin-bottom: 10px; line-height: 1.5em }
+
+#taxas>div { display: inline-block; }
+#taxas p { text-align: center; }
+.button { 
+    background-color: #fff; background-size:cover; 
+    border-radius: 5px; border: #390 1px solid; height:48px; width: 48px; 
+    margin: 4px; margin-left: 8px;
+}
+.button.active { border:color:#390; }
+.button:hover { border-color: #390; }
+
+.button#Suku { background-image: url('../img/icon_suku.png') }
+.button#Bahasa { background-image: url('../img/icon_bahasa.png') }
+.button#Tarian { background-image: url('../img/icon_tari.png') }
+.button#Rumah { background-image: url('../img/icon_rumah.png') }
+.button#Lagu { background-image: url('../img/icon_lagu.png') }
+.button#Pakaian { background-image: url('../img/icon_pakaian.png') }
+.button#Pakaian { background-image: url('../img/icon_pakaian.png') }
+.button#Senjata { background-image: url('../img/icon_senjata.png') }
+
+.button#Suku.active { background-image: url('../img/icon1_suku.png') }
+.button#Bahasa.active { background-image: url('../img/icon1_bahasa.png') }
+.button#Tarian.active { background-image: url('../img/icon1_tari.png') }
+.button#Rumah.active { background-image: url('../img/icon1_rumah.png') }
+.button#Lagu.active { background-image: url('../img/icon1_lagu.png') }
+.button#Pakaian.active { background-image: url('../img/icon1_pakaian.png') }
+.button#Pakaian.active { background-image: url('../img/icon1_pakaian.png') }
+.button#Senjata.active { background-image: url('../img/icon1_senjata.png') }
+.button#Suku:hover { background-image: url('../img/icon1_suku.png') }
+.button#Bahasa:hover { background-image: url('../img/icon1_bahasa.png') }
+.button#Tarian:hover { background-image: url('../img/icon1_tari.png') }
+.button#Rumah:hover { background-image: url('../img/icon1_rumah.png') }
+.button#Lagu:hover { background-image: url('../img/icon1_lagu.png') }
+.button#Pakaian:hover { background-image: url('../img/icon1_pakaian.png') }
+.button#Pakaian:hover { background-image: url('../img/icon1_pakaian.png') }
+.button#Senjata:hover { background-image: url('../img/icon1_senjata.png') }
+
+.marker { 
+    border: #fff 1.4px solid; border-radius: 50%; cursor: pointer; box-shadow: 1px 1px 1px;
+    height: 48px; width: 48px;  margin: -24px 0 0 -24px;
+    background-size: cover; }
+.marker:hover {  z-index: 1; border-color: #390; }
+.marker.sm { 
+    background-color: none; border-width: 0; box-shadow: 0 0 0;
+    height: 32px; width: 32px; margin-left: -16px; margin-top:-16px;}
+.marker.sm:hover { border: #fff 1px solid; }
+
+#me { height: 16px; width: 16px; background-size: 100% 100%; }
+
+.mapboxgl-ctrl-geocoder { z-index: 0; }
+
+.mapboxgl-popup { width: 280px; }
+.mapboxgl-popup-close-button { background-color: rgba(255,255,255,.9); height: 30px; width: 30px; font-size: 18px; padding:2px; border-radius: 1px;}
+.mapboxgl-popup p { font-size: 12px; line-height: 16px; margin-top:6px;}
+.img-md { height: 260px; width:260px; background-position: center center; background-repeat: no-repeat; background-size: cover; }
+
+.loading { display:none; }
+
+@media only screen and (max-width: 479px) {
+
+   .mobile-hide{ display: none; }
+   .mobile-show{ display: inline-block !important; }
+
+    #sidebar { 
+        z-index: 2; border-radius: 0; padding:2vh 4vw 2vh 4vw;
+        position: absolute; width:100%; height:150px;
+        bottom: 30px; left:0; right:0; top:inherit;
+    }
+    #sidebar p { margin-bottom: 2vh; font-size: 1em; }
+
+    #title { margin-bottom: 2vh; }
+    #title h1 { font-size: 20px; line-height: 26px; display: inline-block; }
+    #info { 
+        height:18px; width:18px; display: inline-block; margin-left:3px;
+        background-image: url('../img/arrow_down.svg'); background-size:cover; }
+
+    .button { width:15vw; margin: .5vh 1vw .5vh 10vw; height:15vw;} 
+    .button:first-of-type { margin-left:5vw; }
+    .button img { height:100%; width: 100%; }
+    #taxas p { text-align: center; margin-left: 5vw;  }
+
+    .mapboxgl-popup-content { padding: 1vw; padding-bottom: 2vw; }
+    .mapboxgl-popup { width: 52vw; }
+    .img-md { height: 50vw; width: 50vw;}
+}
