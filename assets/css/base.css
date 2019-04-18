@@ -62,37 +62,37 @@ button::-moz-focus-inner {
 ------------------------------------------------------- */
 @font-face {
   font-family:'Brandon';
-    src:url('../font/brandon_blk.eot');
-    src:url('../font/brandon_blk.eot#iefix') format('embedded-opentype'),
-        url('../font/brandon_blk.woff') format('woff');
+    src:url('../fonts/brandon_blk.eot');
+    src:url('../fonts/brandon_blk.eot#iefix') format('embedded-opentype'),
+        url('../fonts/brandon_blk.woff') format('woff');
   }
 
 @font-face {
   font-family:'Open Sans';
-    src:url('../font/opensans-regular.eot');
-    src:url('../font/opensans-regular.eot#iefix') format('embedded-opentype'),
-        url('../font/opensans-regular.woff') format('woff');
+    src:url('../fonts/opensans-regular.eot');
+    src:url('../fonts/opensans-regular.eot#iefix') format('embedded-opentype'),
+        url('../fonts/opensans-regular.woff') format('woff');
   }
 
 @font-face {
   font-family:'Open Sans Italic';
-    src:url('../font/opensans-italic.eot');
-    src:url('../font/opensans-italic.eot#iefix') format('embedded-opentype'),
-        url('../font/opensans-italic.woff') format('woff');
+    src:url('../fonts/opensans-italic.eot');
+    src:url('../fonts/opensans-italic.eot#iefix') format('embedded-opentype'),
+        url('../fonts/opensans-italic.woff') format('woff');
   }
 
 @font-face {
   font-family:'Open Sans Bold';
-    src:url('../font/opensans-bold.eot');
-    src:url('../font/opensans-bold.eot#iefix') format('embedded-opentype'),
-        url('../font/opensans-bold.woff') format('woff');
+    src:url('../fonts/opensans-bold.eot');
+    src:url('../fonts/opensans-bold.eot#iefix') format('embedded-opentype'),
+        url('../fonts/opensans-bold.woff') format('woff');
   }
 
 @font-face {
   font-family:'Open Sans Bold Italic';
-    src:url('../font/opensans-bolditalic.eot');
-    src:url('../font/opensans-bolditalic.eot#iefix') format('embedded-opentype'),
-        url('../font/opensans-bolditalic.woff') format('woff');
+    src:url('../fonts/opensans-bolditalic.eot');
+    src:url('../fonts/opensans-bolditalic.eot#iefix') format('embedded-opentype'),
+        url('../fonts/opensans-bolditalic.woff') format('woff');
   }
 
 /* Inline Elements: Defaults
@@ -1571,9 +1571,9 @@ h2 .dark > a[href^='#'] {
 ------------------------------------------------------- */
 @font-face {
   font-family:'icon';
-    src:url('../font/icon.eot?v=29');
-    src:url('../font/icon.eot?v=29#iefix') format('embedded-opentype'),
-        url('../font/icon.woff?v=29') format('woff');
+    src:url('../fonts/icon.eot?v=29');
+    src:url('../fonts/icon.eot?v=29#iefix') format('embedded-opentype'),
+        url('../fonts/icon.woff?v=29') format('woff');
   font-weight:normal;
   font-style:normal;
   }

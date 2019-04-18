@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Merriweather:400,700');
+
+$font-primary : 'Ubuntu', sans-serif;
+$font-secondary : 'Merriweather', serif;
+$font-tertiary : '', sans-serif;
+$font-heading : $font-secondary;
+$font-icon: FontAwesome;
+$font-sas: 'sas-webfont';
+
+
+$black: #222222;
+$white: #ffffff;
+
+// Global
+$color-body: #999999;
+$color-primary: #8BAD21;
+$color-secondary: #222222;
+$color-tertiary: transparent;
+$color-quaternary: transparent;
+$body-bg: #fff;
+$font-body: $font-primary;
+$content-padding: 80px;
+
+/* -------------------- 
+TOPBAR SETTING
+-----------------------*/
+$topbar-bg: darken($color-primary,40%);
+$topbar-color: $color-body;
+$topbar-nav-color: $color-primary;
+$topbar-nav-hover-color: $color-secondary;
+$topbar-font: $font-primary;
+
+/* -------------------- 
+NAVBAR SETTING
+-----------------------*/
+$navbar-bg: $white;
+$navbar-font: $font-secondary;
+$navbar-color: $black;
+$navbar-hover-color: $color-primary;
+$navbar-active-color: $color-primary;
+$navbar-stiky-color: $color-primary;
+
+/* -------------------- 
+FOOTER SETTING
+-----------------------*/
+$footer-bg: $color-secondary;
+$footer-font-color: $color-body;
+
+/* -------------------- 
+BUTTON SETTING
+-----------------------*/
+$btn-primary-hover: $color-secondary;
+
+
+// Background
+$bg__topbar: $color-primary;
+
+.bolder{
+	font-weight: 600;
+}
+
+.cfix{
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+@import "mixin.scss";

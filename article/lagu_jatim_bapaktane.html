@@ -6,12 +6,12 @@
 
   <title>Bapak Tane</title>
 
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/img/favicon.png"><link href="../assets/css/bootstrap.min.css" rel="stylesheet"><link href="../assets/css/font-awesome.min.css" rel="stylesheet">
   <link href="../assets/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-  <script src="../assets/_html/article_nav.js"></script>
+  <script src="../assets/html/article_nav.js"></script>
   
   <!-- Page Content -->
   <div class="container">
@@ -49,7 +49,7 @@
   </div>
   <!-- /.container -->
 
-  <script src="../assets/_html/article_footer.js"></script>
+  <script src="../assets/html/article_footer.js"></script>
   
   <!-- Bootstrap core JavaScript -->
   <script src="../assets/js/jquery-3.3.1.min.js"></script>
@@ -59,7 +59,7 @@
   $(function(){
     var includes = $('[data-include]');
     jQuery.each(includes, function(){
-      var file = '../assets/_html/' + $(this).data('include') + '.html';
+      var file = '../assets/html/' + $(this).data('include') + '.html';
       $(this).load(file);
     });
   });
